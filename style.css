@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 240px;
+    height: 240px;
+}
+.grid {
+    display: flex;
+    height: 80px;
+    width: 80px;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
